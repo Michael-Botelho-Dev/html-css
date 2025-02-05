@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color:  rgb(4, 109, 0);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: white;
+}
+
+h2.topico {
+    background-color: rgba(100, 255, 255, 0.638);
+    color:blue;
+}
+
+h2.topico02 {
+    background-color: rgba(147, 46, 241, 0.496);
+    color: aliceblue;
+    font-weight: bold;
+}

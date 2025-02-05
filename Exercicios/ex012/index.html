@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio sevidor.</p>
+
+    <video src="midia/meu-video.mp4" width="600" poster="imagens/foto-video.png" controls autoplay >
+         <source src="midia/meu-video.wemb" type="video/wemb">
+         <source src="midia/meu-video.mp4" type="video/mp4">
+         <source src="midia/meu-video.ogv" type="video/ogg">
+         <p>Seu navegador nao tem compatibilidade com reproduçao de videos</p>
+    </video>
+
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="600" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg?si=zs3kGjbR5VCZE8U0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+    <h1>Inserindo Videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/126287950?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="600" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="Klaus teaser ©2015 Sergio Pablos Animation Studios, S.L. &amp; ANTENA 3 FILMS, S.L.U. All rights reserved"></iframe>
+</body>
+</html>
